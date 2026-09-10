@@ -1,0 +1,8 @@
+def profile_data(df):
+    print(df.shape)
+    print(df.columns)
+    print(df.dtypes)
+    print(df.isnull().sum())
+    print(df.duplicated().sum())
+    print('/n/n')
+    df.info()

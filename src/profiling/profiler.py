@@ -6,3 +6,5 @@ def profile_data(df):
     print(df.duplicated().sum())
     print('/n/n')
     df.info()
+    print('nlnll')
+    print(df['gender'].value_counts())
